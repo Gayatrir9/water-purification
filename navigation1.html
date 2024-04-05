@@ -1,0 +1,81 @@
+	<style>
+		li > a {
+			color: #9d9d9d;
+			text-decoration:none;
+		}
+		li > a:hover {
+			color: #fff;
+			text-decoration:none;
+		}
+	</style>
+   <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">SHUDDHA NEERU</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="float: left ! important; margin-left: 70px;">
+                <ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plant Info Entry<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="EmpAtt.php">Attendance Entry </a>
+                            </li>
+							 <li>
+                                <a href="PlantMet.php">Meter Info Entry</a>
+                            </li>
+							 <li>
+                                <a href="PlantPay.php">Payment Info Entry </a>
+                            </li>
+							<li>
+                                <a href="PlantComplaint.php">Complaint Entry </a>
+                            </li>
+							<li>
+                                <a href="CompSolve.php">Complaint Soltn Entry </a>
+                            </li>
+                        </ul>
+                    </li>
+					
+					<li class="dropdown">
+						 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plant Process View<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="meterview2.php">Meter Reading View </a></li>
+                            <li><a href="compview2.php">Complaint View </a></li>
+							<li><a href="compsolvedview2.php">Complaint Solved View </a></li>
+                            <li><a href="payview2.php">Payment View </a></li>
+                            <li><a href="attendview2.php">Attendance View </a></li>
+                        </ul>
+                    </li>
+
+
+
+			<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Graphical Reports<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="libchart/demo/HorizontalBarChartTest.php">Water Supplied</a></li>
+                            
+                        </ul>
+                    </li>
+
+
+
+
+                   
+                </ul>
+            </div>
+			 <li class="dropdown" style="float: right; padding: 15px 0px;">
+				<a href="home.php?q=logout">Log Out</a>
+			</li>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
